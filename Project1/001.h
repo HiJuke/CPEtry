@@ -14,6 +14,7 @@
 #include <functional>
 
 void test01() {
+	//題目編號100
 	int n;
 	cout << "Please Enter Number N:  ";
 	cin >> n;
@@ -29,3 +30,5 @@ void test01() {
 	for (auto x : aTime) cout << x << " ";
 	cout << "\n字串總長為 " << aTime.size() << endl;
 }
+
+
